@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+
+# logs
+*.log
+
+# dotenv environment variables
+.env
+
+# TypeScript build output
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
