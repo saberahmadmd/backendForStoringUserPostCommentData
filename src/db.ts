@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 // Validate and get MONGO_URI
-const uri = process.env.MONGO_URI;
+const uri = process.env.MONGO_URI || 'mongodb://localhost:27017';
 if (!uri) {
   throw new Error("❌ MONGO_URI is not defined in environment variables.");
 }
